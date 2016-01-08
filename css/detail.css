@@ -1,0 +1,193 @@
+/*reset */
+ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+:focus {
+    outline: 0;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    text-align: left;
+    font-weight: normal;
+}
+a img, iframe {
+    border: none;
+}
+ol, ul {
+    list-style: none;
+}
+input, textarea, select, button {
+    font-size: 100%;
+    font-family: inherit;
+}
+select {
+    margin: inherit;
+}
+/* Fixes incorrect placement of numbers in ol’s in IE6/7 */
+  ol {
+    margin-left:2em;
+}
+/* == clearfix == */
+ .clearfix:after {
+    content: “.”;
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {
+    display: inline-block;
+}
+* html .clearfix {
+    height: 1%;
+}
+.clearfix {
+    display: block;
+}
+p.pic {
+  text-align: center;
+}
+body {
+      font: 62.5% "Microsoft YaHei", Arial;
+}
+
+.detail{
+    width: 1920px;
+    background: #141213 url(../img/bg.jpg) no-repeat top center;
+}
+.detail .wrap{
+        width: 1005px;
+    margin-left: -502px;
+    position: absolute;
+    left: 50%;
+}
+.wrap .nav{
+    position: absolute;
+    top: 36px;
+    left: 85px;
+    width: 800px;
+    height: 57px;
+}
+
+.wrap .nav li.luntan a{
+    width: 186px;
+}
+ .wrap .nav li a{
+    height: 57px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #fff;
+    display: block;
+    float:left;
+    text-align: center;
+    line-height: 62px;
+    text-decoration:none;
+} 
+.wrap .nav li.huiying a{
+    width: 154px;
+}
+.wrap .nav li.home a{
+    width: 159px;
+    text-indent: -9999px;
+}
+.wrap .nav li.ziliao a{
+    width: 139px;
+
+}
+.wrap .nav li.gonglue a{
+    width: 155px;
+}
+
+.wrap .nav li.luntan a:hover,
+.wrap .nav li.huiying a:hover,
+.wrap .nav li.ziliao a:hover,
+.wrap .nav li.gonglue a:hover {
+    background: url(../img/huoguo_03.png) no-repeat 50% 60%;
+}
+
+.wrap .content {
+    margin-top: 600px;
+    background: #141213 url(../img/newsbg.jpg)no-repeat ;
+    width: 998px;
+
+}
+
+.wrap .content .tab_pos{
+   position: absolute;
+   margin: 10px 0px 0px 10px;
+   color: #fafabc;
+   font-size: 15px;
+}
+.foot{
+
+    width: 100%;
+/*     background-color: #000; */
+    height: 71px;
+    position: absolute;
+    left: 0;
+    text-align: center;
+}
+.foot div{
+    color: #383838;
+    margin-top: 20px;
+}
+.foot div p{
+    font-size: 14px;
+}
+
+.content .title{
+    width: 580px;
+    margin: 0 auto;
+/*     border:1px solid red; */
+    font-size: 18px;
+    text-align: center;
+    color: #ffd831;
+    font-weight: 100;
+}
+.content .info{
+        text-align: center;
+    color: #ac9b92;
+    font-size: 12px;
+    line-height: 65px;
+    font-weight: 100;
+    border-bottom: 1px solid #ac9b93;
+}
+.content .article_content{
+   font-size: 14px;
+    color: #AC9B93;
+    margin-top: 20px;
+    padding: 51px;
+    /* border: 1px solid red; */
+}
+.article_content p{
+    font-size: 15px;
+    line-height: 30px;
+}
+  .content .con{
+    padding-top: 80px;
+     min-height: 1000px;
+    margin-bottom: 15px;
+    border-top-width: 4px;
+    border-right-width: 4px;
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: #510b0b;
+    border-right-color: #510b0b;
+    border-bottom-color: #510b0b;
+    border-left-color: #510b0b;
+  }
